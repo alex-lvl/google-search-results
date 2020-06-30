@@ -1,0 +1,40 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+} 
+
+footer {
+    background-color: #f2f2f2;
+    font-size: 13px;
+    height: 4vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+#search-bar {
+    border: 2px #eeeeee solid;
+    border-radius: 25px;
+    padding: 10px;
+    /* margin: 5px 0; */
+    width: 55vh;
+}
+
+#profile-pic {
+    padding: 0 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
+
