@@ -17,6 +17,11 @@ li {
     padding: 0 10px;
 } 
 
+a {
+    color: gray;
+    text-decoration: none;
+}
+
 svg{
     vertical-align: middle;
 }
@@ -53,7 +58,7 @@ footer {
     border: 1px #eeeeee solid;
     border-radius: 25px;
     padding: 10px 20px;
-    width: 600px;
+    width: 580px;
 }
 
 #search-box {
@@ -77,11 +82,42 @@ footer {
 
 
 #right-nav {
-    display: inline-block;
+    /* display: inline; */
     float: right;
 }
 
+#tool-bar {
+    /* border-bottom: solid black 1px; */
+    font-size: 12px;
+    /* padding-bottom: 15px; */
+    /* padding-left: 140px; */
+    margin: 12px 0px 12px 140px;
+    white-space: nowrap;
+}
 
+.tool-box {
+    padding: 11px 10px;
+}
 
+.tool-box:hover{
+    border-bottom: #1a73e8 2px solid;
+    color: #1a73e8;
+}
 
+hr {
+    border: #eeeeee 0.1px solid;
+    margin: 0;
+}
+
+.tool {
+    display: inline-block;
+}
+
+#right-tools {
+    margin-left: 60px;
+}
+
+#icons {
+    margin-right: 2px;
+}
 
