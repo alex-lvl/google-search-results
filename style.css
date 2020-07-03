@@ -17,10 +17,6 @@ ul {
     list-style: none;
 }
 
-li {
-    padding: 0 10px;
-} 
-
 a {
     text-decoration: none;
 }
@@ -31,6 +27,18 @@ svg {
 
 img {
     vertical-align: middle;
+}
+
+p {
+    font-size: 13px;
+    margin: 0;
+    padding: 5px 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: normal;
 }
 
 footer {
@@ -45,20 +53,18 @@ footer {
     white-space: nowrap;
 }
 
-p {
-    font-size: 13px;
-    margin: 0;
-    padding: 5px 0;
-    /* color: black; */
+#navbar {
+    padding: 18px 0;
+    width: 100%;
 }
 
-h3 {
-    font-size: 19px;
-    margin: 0;
-    font-weight: normal;
+#rightside-nav {
+    white-space: nowrap;
+    float: right;
+    margin-right: 20px;
 }
 
-#logo{
+#logo {
     height: 27px;
     width: 78px;
 }
@@ -78,7 +84,6 @@ h3 {
 
 #search-box {
     display: inline-block;
-    /* width: 85%; */
 }
 
 #profile-pic {
@@ -88,38 +93,36 @@ h3 {
     border-radius: 100%;
 }
 
-#navbar {
-    margin: 0;
-    padding: 18px 0;
-    width: 100%;
-}
-
-
-#right-nav {
-    /* display: inline; */
-    white-space: nowrap;
-    float: right;
-    margin-right: 20px;
-}
-
-#tool-bar {
-    /* border-bottom: solid black 1px; */
+#tab-box {
     font-size: 12px;
-    /* padding-bottom: 15px; */
-    /* padding-left: 140px; */
     margin: 12px 0px 12px 150px;
     white-space: nowrap;
 }
 
-.tool-box {
+.tabs {
     padding: 11px 10px;
     color: gray;
-
 }
 
-.tool-box:hover{
+.tabs:hover{
     border-bottom: #1a73e8 2px solid;
     color: #1a73e8;
+}
+
+.tab-bar {
+    display: inline-block;
+}
+
+.tab-bar li {
+    display: inline;
+}
+
+#right-side-tabs {
+    margin-left: 60px;
+}
+
+.icons {
+    margin-right: 2px;
 }
 
 hr {
@@ -127,29 +130,13 @@ hr {
     margin: 0;
 }
 
-.tool {
-    display: inline-block;
-}
-
-.tool li {
-    display: inline;
-}
-
-#right-tools {
-    margin-left: 60px;
-}
-
-#icons {
-    margin-right: 2px;
-}
-
 #total-results {
     font-size: 10px;
     margin: 12px 0;
 }
 
-.title {
-    margin: 0;
+.title-url {
+    color: black;
 }
 
 .description {
@@ -169,7 +156,6 @@ hr {
     display: inline;
     color: gray;
     padding: 0 20px 0 0;
-
 }
 
 .footer-list a {
@@ -188,7 +174,6 @@ hr {
 #bottom-search-logo {
     height: auto;
     width: 250px;
-
 }
 
 .number-list {
@@ -209,4 +194,8 @@ hr {
 
 #footer-links {
     padding: 10px 0;
+}
+
+.gray-text {
+    color: gray;
 }
