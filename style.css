@@ -6,6 +6,11 @@ body {
     padding: 0;
 }
 
+section {
+    width: 60vh;
+    margin-left: 160px;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -18,11 +23,10 @@ li {
 } 
 
 a {
-    color: gray;
     text-decoration: none;
 }
 
-svg{
+svg {
     vertical-align: middle;
 }
 
@@ -42,6 +46,19 @@ footer {
     align-items: center;
     position: fixed;
     bottom: 0;
+}
+
+p {
+    font-size: 13px;
+    margin: 0;
+    padding: 5px 0;
+    /* color: black; */
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
 }
 
 #logo{
@@ -91,12 +108,14 @@ footer {
     font-size: 12px;
     /* padding-bottom: 15px; */
     /* padding-left: 140px; */
-    margin: 12px 0px 12px 140px;
+    margin: 12px 0px 12px 150px;
     white-space: nowrap;
 }
 
 .tool-box {
     padding: 11px 10px;
+    color: gray;
+
 }
 
 .tool-box:hover{
@@ -121,3 +140,28 @@ hr {
     margin-right: 2px;
 }
 
+#total-results {
+    font-size: 10px;
+    margin: 12px 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.description {
+    line-height: 1.4;
+    color: #4b4b4b;
+}
+
+.results {
+    margin-bottom: 15px;
+}
+
+#grid-icon {
+    color: black;
+}
+
+.gray-text {
+    color: gray;
+}
