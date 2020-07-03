@@ -36,15 +36,13 @@ img {
 footer {
     background-color: #f2f2f2;
     font-size: 13px;
-    height: 4vh;
-    width: 100%;
+    height: auto;
+    width: auto;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
+    padding-left: 160px;
     bottom: 0;
+    position: static;
+    white-space: nowrap;
 }
 
 p {
@@ -55,7 +53,7 @@ p {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 19px;
     margin: 0;
     font-weight: normal;
 }
@@ -94,13 +92,14 @@ h3 {
     margin: 0;
     padding: 18px 0;
     width: 100%;
-    white-space: nowrap;
 }
 
 
 #right-nav {
     /* display: inline; */
+    white-space: nowrap;
     float: right;
+    margin-right: 20px;
 }
 
 #tool-bar {
@@ -169,6 +168,8 @@ hr {
 .footer-list {
     display: inline;
     color: gray;
+    padding: 0 20px 0 0;
+
 }
 
 .footer-list a {
@@ -182,4 +183,30 @@ hr {
 
 .related-icon {
     margin-right: 12px;
+}
+
+#bottom-search-logo {
+    height: auto;
+    width: 250px;
+
+}
+
+.number-list {
+    margin: 0 10%;
+    display: inline-block;
+}
+
+.number-list li {
+    font-size: 14px;
+    display: inline-block;
+    margin: 0;
+    padding: 1.7px;
+}
+
+#page-navigation {
+    margin: 0 25% 20px 25%;
+}
+
+#footer-links {
+    padding: 10px 0;
 }
