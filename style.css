@@ -18,7 +18,6 @@ ul {
 }
 
 li {
-    display: inline;
     padding: 0 10px;
 } 
 
@@ -72,6 +71,7 @@ h3 {
 }
 
 #search-bar {
+    font-size: 14px;
     border: 1px #eeeeee solid;
     border-radius: 25px;
     padding: 10px 20px;
@@ -132,6 +132,10 @@ hr {
     display: inline-block;
 }
 
+.tool li {
+    display: inline;
+}
+
 #right-tools {
     margin-left: 60px;
 }
@@ -162,6 +166,20 @@ hr {
     color: black;
 }
 
-.gray-text {
+.footer-list {
+    display: inline;
     color: gray;
+}
+
+.footer-list a {
+    color: gray;
+}
+
+.related-search {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.related-icon {
+    margin-right: 12px;
 }
