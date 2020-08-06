@@ -1,7 +1,3 @@
-Objective
+Overview
 
-The objective of this project is to replicate the google search results page as best as possible using HTML/CSS only. Practice with git and github is included.
-
-Reflection
-
-With my knowledge of HTML/CSS i believe flexbox may have made some portions of the page a bit easier to build. However, I decided to challenge myself by learning more about other HTML elements and CSS properties. As a result, I have gained more knowledge with this project.
+This project is a replication of the google search results page, using HTML/CSS only. Links are not included in many areas of the page. Also, there is no search engine functionality in this project.

@@ -21,11 +21,7 @@ a {
     text-decoration: none;
 }
 
-svg {
-    vertical-align: middle;
-}
-
-img {
+svg,img {
     vertical-align: middle;
 }
 
@@ -72,6 +68,7 @@ footer {
 #logo-box {
     margin: 0 30px; 
     display: inline-block;
+
 }
 
 #search-bar {
@@ -135,7 +132,7 @@ hr {
     margin: 12px 0;
 }
 
-.title-url {
+.title-url, #grid-icon {
     color: black;
 }
 
@@ -146,10 +143,6 @@ hr {
 
 .results {
     margin-bottom: 15px;
-}
-
-#grid-icon {
-    color: black;
 }
 
 .footer-list {
